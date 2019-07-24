@@ -1,0 +1,162 @@
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.profile-image {
+  max-width: 100%;
+  border-radius: 50%;
+  height: 200px;
+}
+.summery {
+  background-color: rgba(4, 138, 148, 0.04);
+  height: 100%;
+  padding: 12px;
+}
+.summery > h3 {
+  text-align: left;
+  line-height: 1;
+  font-weight: 400;
+  color: #000;
+  letter-spacing: 0.25px;
+  font-size: 34px;
+  margin: unset;
+}
+.summery > h4 {
+  text-align: left;
+  font-weight: 300;
+  font-size: 28px;
+  position: relative;
+  color: #000;
+}
+.summery > h4::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 25%;
+  background-color: #000;
+  bottom: -5px;
+  left: 0;
+}
+.summery > p {
+  text-align: left;
+  line-height: 1.2;
+  color: #000;
+  font-size: 20px;
+  letter-spacing: 0.75px;
+  font-weight: 400;
+  word-spacing: 1px;
+}
+.personal-details {
+  background: #30878e;
+  color: #fff;
+  padding: 12px 0;
+}
+.personal-detail {
+  flex: 1;
+}
+.personal-detail > p {
+  margin: unset;
+  font-size: 20px;
+  letter-spacing: 0.25px;
+}
+.personal-detail.address {
+  flex: 2;
+}
+.sectionHeader {
+  padding: 12px;
+}
+.sectionHeader > h2 {
+  color: #30878e;
+  font-weight: 600;
+  margin: unset;
+  letter-spacing: 0.5px;
+  line-height: 1.25;
+}
+.skills {
+  display: grid;
+  grid-gap: 14px;
+  grid-template-columns: repeat(9, auto);
+}
+.skill-chip {
+  background: #4aaab1;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  padding: 6px 0;
+  border-radius: 4px;
+  color: #fff;
+}
+.sectionDetail {
+  text-align: left;
+  padding-left: 32px;
+}
+.achievements,
+.interests,
+.languages {
+  text-align: left;
+}
+ul.section-list {
+  padding-left: 32px;
+  letter-spacing: 0.5px;
+  font-size: 19px;
+}
+.sectionDetail .heading {
+  margin: unset;
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+.sectionDetail .subheading {
+  font-size: 22px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  line-height: 1;
+  margin: unset;
+}
+.sectionDetail .midsub {
+  margin: unset;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+.sectionDetail .supersub {
+  margin-bottom: 8px;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1;
+}
+.achievements,
+.languages {
+  padding-left: 32px;
+}
+.achievements > ul,
+.languages > ul {
+  padding-left: 47px;
+  margin: unset;
+}
+.achievements > ul > li,
+.languages > ul > li {
+  letter-spacing: 0.5px;
+  font-size: 19px;
+  white-space: nowrap;
+}
+.languages > ul > li > p {
+  margin: unset;
+}
+.languages > ul > li > p > span {
+  font-weight: 500;
+}
+.interests {
+  padding-left: 32px;
+}
+.interests > ul {
+  padding-left: 47px;
+}
+.interests > ul > li {
+  letter-spacing: 0.5px;
+  font-size: 19px;
+}
